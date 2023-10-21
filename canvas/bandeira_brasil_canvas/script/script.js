@@ -22,3 +22,32 @@ ctx.arc(150,100,60,0,2*Math.PI)
 ctx.fill()
 ctx.closePath()
 ctx.stroke()
+
+ctx.beginPath()
+ctx.strokeStyle = "white"
+ctx.lineWidth = 3
+ctx.moveTo(90,92)
+ctx.quadraticCurveTo(160,54, 210, 110)
+ctx.stroke()
+
+ctx.beginPath()
+ctx.strokeStyle = "white"
+ctx.lineWidth = 3
+ctx.moveTo(89,94)
+ctx.quadraticCurveTo(160,56, 210, 112)
+ctx.stroke()
+
+ctx.beginPath()
+ctx.strokeStyle = "white"
+ctx.lineWidth = 3
+ctx.moveTo(89,96)
+ctx.quadraticCurveTo(160,58, 210, 114)
+ctx.stroke()
+
+ctx.beginPath()
+ctx.strokeStyle = "white"
+ctx.lineWidth = 3
+ctx.moveTo(89,98)
+ctx.quadraticCurveTo(160,60, 210, 116)
+ctx.stroke()
+
