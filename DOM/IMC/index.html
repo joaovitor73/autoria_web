@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="style/style.css"/>
+</head>
+<body>
+
+    <section>
+        <fieldset>
+            <legend>Preencha os dados</legend><br>
+            <label for="peso">Peso(em Kg): </label>
+            <input class="entrada" id="peso" type="number" onclick="verificar()"> <br>
+            <label for="altura">Altura(em metros): </label>
+            <input class="entrada" id="altura" type="number"> <br>
+            <input class="button" type="submit" value="Calcular" onclick="podeCalcular()"> </input>
+            <input class="button" type="reset" value="limpar"onclick="limpar()"> </input> <br>
+            <label visible="false" id="resultado"></label>   
+        </fildset>
+    </section>
+    
+    <script src="script/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+fieldset{
+    width: 400px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+legend{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+
+label{
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.button{
+    background-color: #ffffff9d;
+}
